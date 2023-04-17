@@ -1,10 +1,13 @@
-import React from 'react'
-import "./Header.scss"
+import React from "react";
+import "./Header.scss";
 
 const Header = () => {
   return (
-    <div>Ticket Tracker</div>
-  )
-}
+    <div className="Title">
+      {" "}
+      <h1>Ticket Tracker</h1>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

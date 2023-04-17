@@ -1,1 +1,25 @@
 @use "../../assets/sass/_variables.scss" as *;
+
+.counter {
+  border: solid 2px $color-primary;
+  border-radius: 5px;
+  height: 190px;
+  width: 170px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusMinus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.value {
+  font-size: 30px;
+}

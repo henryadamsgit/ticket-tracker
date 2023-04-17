@@ -1,6 +1,12 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .employee-card {
-  height: 400px;
+  height: 300px;
   width: 200px;
+  border: solid 4px $color-black;
+  gap: 20px;
+}
+
+.person {
+  padding-left: 20px;
 }
