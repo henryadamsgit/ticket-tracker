@@ -4,14 +4,14 @@ import "./Counter.scss";
 const Counter = () => {
   return (
     <div className="counter">
-      <h5>Counter</h5>
+      <h3>Counter</h3>
       <div className="value">
         <p>0</p>
       </div>
 
       <div className="plusMinus">
-        <p>-</p>
-        <p>+</p>
+        <button>-</button>
+        <button>+</button>
       </div>
     </div>
   );

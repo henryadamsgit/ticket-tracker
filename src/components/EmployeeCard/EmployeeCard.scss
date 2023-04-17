@@ -5,6 +5,17 @@
   width: 200px;
   border: solid 4px $color-black;
   gap: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform $hover-transition-speed ease-out,
+    opacity $hover-transition-speed ease-out;
+
+  &:hover {
+    transform: scale($hover-scale);
+    opacity: $hover-opacity;
+    cursor: pointer;
+    color: $color-primary;
+    border-color: $color-primary;
+  }
 }
 
 .person {

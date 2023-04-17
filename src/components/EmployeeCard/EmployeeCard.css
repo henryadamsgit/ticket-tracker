@@ -1,0 +1,10 @@
+.employee-card {
+  height: 300px;
+  width: 200px;
+  border: solid 4px #2d3436;
+  gap: 20px;
+}
+
+.person {
+  padding-left: 20px;
+}/*# sourceMappingURL=EmployeeCard.css.map */

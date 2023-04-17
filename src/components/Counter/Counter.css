@@ -1,7 +1,5 @@
-@use "../../assets/sass/_variables.scss" as *;
-
 .counter {
-  border: solid 2px $color-primary;
+  border: solid 2px #6571db;
   border-radius: 5px;
   height: 190px;
   width: 170px;
@@ -22,4 +20,4 @@
 
 .value {
   font-size: 30px;
-}
+}/*# sourceMappingURL=Counter.css.map */
