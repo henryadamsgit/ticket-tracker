@@ -4,4 +4,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 30px;
+  padding-top: 20px;
+}
+
+.Input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &__Name {
+    height: 25px;
+  }
+  &__Role {
+    height: 25px;
+    width: 147px;
+  }
 }

@@ -10,8 +10,8 @@ const Counter = () => {
       </div>
 
       <div className="plusMinus">
-        <button>-</button>
-        <button>+</button>
+        <button className="minus">-</button>
+        <button className="plus">+</button>
       </div>
     </div>
   );
