@@ -18,6 +18,21 @@
   align-items: center;
   font-size: 25px;
   gap: 40px;
+
+  &__button {
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #ccc;
+    }
+
+    &:active {
+      background-color: $color-primary;
+    }
+  }
 }
 
 .value {
